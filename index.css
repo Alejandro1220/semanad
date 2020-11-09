@@ -1,0 +1,197 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(fondon.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+body.poi{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(foni.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cont{
+	position: absolute;
+	width: 400px;
+	height: 42px;
+	font-family: arial;
+	font-style: oblique;
+	font-size: 40px;
+	line-height: 40px;
+	display: flex;
+    top: 16%;
+    left: 39%;
+    overflow: hidden;
+}
+
+.pi{
+	position: absolute;
+	font-family: arial;
+	font-style: oblique;
+	font-size: 60px;
+	left: 41%;
+}
+
+.cu{
+
+
+}
+
+ul{
+   list-style: none;
+   padding-left: 20px;
+   animation: cambio 4s infinite;
+}
+ul, .cu{
+	margin: 0px;
+}
+
+@keyframes cambio {
+	0%{ margin-top:0px; }
+	49%{ margin-top: 0px; }
+	50%{ margin-top: -42px; }
+	99%{ margin-top: -42px; }
+	100%{margin-top: 0px;}
+}
+
+.im{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+.imu{
+	position: absolute;
+	top: 20%;
+}
+
+.la{
+	position: absolute;
+	top: 55%;
+	left: 27%;
+}
+.mo{
+	position: absolute;
+	background-color: #999898;
+	width: 90px;
+	height: 50px;
+	border-radius: 30px;
+	top: 80%;
+	left: 40%;
+}
+
+.ki{
+	position: relative;
+	left: 18px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.mou{
+	position: absolute;
+	background-color: #999898;
+	width: 90px;
+	height: 50px;
+	border-radius: 30px;
+	top: 82%;
+	left: 50%;
+}
+
+.cou{
+	position: relative;
+	top: 20px;
+
+}
+.cod{
+	position: relative;
+	left: 500px;
+}
+.cot{
+	position: relative;
+	left: 1000px;
+}
+
+.mop{
+	position: absolute;
+	background-color: #999898;
+	width: 90px;
+	height: 50px;
+	border-radius: 30px;
+	top: 80%;
+	left: 90%;
+}
+
+.tol{
+	position: relative;
+	top: 50px;
+}
+
+.let{
+	position: relative;
+	top: -90px;
+	left: 200px;
+}
+.fin{
+	position: absolute;
+	display: block;
+	font-size: 50px;
+	line-height: 120px;
+	top: 50px;
+	left: 38%;
+}
+
+.ran{
+	position: absolute;
+	top: 10px;
+	left: 900px;	
+}
+.luc{
+	position: relative;
+	left: 900px;
+	z-index: 1;
+}
+
+
+
+div.paji{
+	position: relative;
+	top: 250px;
+	margin: 0px;
+}
+
+.paji:hover{
+	animation: vuela 50s;
+}
+
+@keyframes vuela {
+	0%{ top:0px; }
+	49%{ top: 0px; }
+	50%{ top: -42px; }
+	99%{ top: -42px; }
+	100%{top: 0px;}
+}
+}
+
+.hoy{
+	position: absolute;
+}
+
+.ho{
+	position: absolute;
+	display:block;
+}
+
+.ho:hover{
+	display: none;
+}
+
+.hu{
+	position: absolute;
+	font-size: 80px;
+	left: 200px;
+}
